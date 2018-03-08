@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="300dp"
+    android:layout_gravity="center"
+    android:layout_height="500dp"
+    tools:context="com.svvv.by.squarabh.patni.LoginActivity">
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enrollment No."
+        android:inputType="text|textPersonName"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textColorHighlight="@android:color/background_light"
+        android:textColorHint="@android:color/white"
+        android:tooltipText="Your Enrollment Number" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorAccent"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/holo_green_light"
+        android:textColorHint="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="Login" />
+
+
+</RelativeLayout>
